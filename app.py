@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Hello from my custom domain! 🌐</h1><p>Version: 2</p>"
+    return "<h1>Hello from my custom domain! 🌐</h1><p>Version: 3</p>"
 
 @app.route("/health")
 def health():
